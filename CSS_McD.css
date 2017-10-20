@@ -1,0 +1,105 @@
+img {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+}
+body {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+button {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+button:hover{
+    color: red;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+h1, h2 {
+    font-style: italic;
+}
+label {
+    width: 150px;
+    height: 150px;
+}
+
+
+[type=radio], [type=checkbox] {
+    display: none;
+}
+[type=radio] + label, [type=checkbox] + label {
+    background-color: white;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+}
+[type=radio] + label:hover, [type=checkbox] + label:hover {
+    background-color: grey;
+}
+[type=radio]:checked + label, [type=checkbox]:checked + label {
+    background-color: red;
+}
+
+
+.Bilde {
+    box-sizing: content-box;
+}
+
+.Felt {
+    font-size: 25px;
+}
+
+#Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+#Høyre, #Venstre {
+    float: left;
+    background-image: url("Bilder/Burger_hvit_backgrunn.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 200px 150px;
+    width: 20%;
+    height: 1350px;
+}
+#Midten {
+    float: left;
+    width: 52%;
+    margin-left: 100px;
+}
+
+
+
+
+#Logo_registrert {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    width: 300px;
+    height: 300px;
+}
+
+#oppe {
+    background-color: white;
+}
+
+#Nede {
+    background-image: url("Bilder/BurgerSnurreGif.gif");
+    background-size: 200px 150px;
+    height: 1000px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
