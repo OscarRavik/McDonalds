@@ -69,15 +69,15 @@ label {
 
     flex-grow: 2;
     background-image: url("Bilder/Burger_hvit_backgrunn.png");
-    background-repeat: repeat-y;
-    background-size: 100%;
+    background-size: 50%;
+    background-repeat: repeat;
 }
 #Midten {
-    float: left;
-    margin-left: 100px;
-    flex-basis: 500px;
+    min-width: 200px;
     flex-grow: 1;
     flex-shrink: 1;
+    margin: 2vw
+
 }
 
 
