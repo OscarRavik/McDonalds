@@ -6,6 +6,8 @@ img {
 body {
     font-size: 25px;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
 }
 button {
     font-size: 25px;
@@ -64,18 +66,18 @@ label {
 }
 
 #Høyre, #Venstre {
-    float: left;
+
+    flex-grow: 2;
     background-image: url("Bilder/Burger_hvit_backgrunn.png");
     background-repeat: repeat-y;
-    background-position: center;
-    background-size: 200px 150px;
-    width: 20%;
-    height: 1350px;
+    background-size: 100%;
 }
 #Midten {
     float: left;
-    width: 52%;
     margin-left: 100px;
+    flex-basis: 500px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 
