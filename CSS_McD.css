@@ -105,3 +105,10 @@ label {
     margin-left: auto;
 }
 
+#mottat {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
