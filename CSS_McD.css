@@ -73,11 +73,10 @@ label {
     background-repeat: repeat;
 }
 #Midten {
-    min-width: 200px;
+    min-width: 300px;
     flex-grow: 1;
     flex-shrink: 1;
-    margin: 2vw
-
+    margin: 2vw;
 }
 
 
